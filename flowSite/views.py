@@ -9,6 +9,10 @@ class IndexView(TemplateView):
 class ContactView(TemplateView):
     template_name = 'contact.html'
 
+class BlogView(TemplateView):
+    template_name = 'blog.html'
+
 
 index = IndexView.as_view()
 contact = ContactView.as_view()
+blog = BlogView.as_view()
