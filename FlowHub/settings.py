@@ -32,7 +32,7 @@ PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 SECRET_KEY = os.environ.get('SECRET_KEY', default='foo')
 
 DEBUG = int(os.environ.get('DEBUG', default=0))
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'guarded-lake-23726.herokuapp.com']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'flow-hub.herokuapp.com']
 
 # Application definition
 
