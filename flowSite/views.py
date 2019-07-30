@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from django.views.generic import TemplateView
+import pandas as pd
 
 
 class IndexView(TemplateView):
@@ -8,6 +9,7 @@ class IndexView(TemplateView):
 
 class ContactView(TemplateView):
     template_name = 'contact.html'
+
 
 class BlogView(TemplateView):
     template_name = 'blog.html'
