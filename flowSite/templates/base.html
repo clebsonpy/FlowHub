@@ -82,12 +82,15 @@
             </nav>
 
             <section id="home" class="video-hero" style="height: 700px; background-image: url({% static 'images/flow.jpg' %});  background-size:cover; background-position: center center;background-attachment:fixed;" data-section="home">
-            <div class="overlay"></div>
+                <div class="overlay"></div>
                 <div class="display-t text-center">
                     <div class="display-tc">
                         <div class="container">
                             <div class="col-md-12 col-md-offset-0">
                                 <div class="animate-box">
+                                    <div class="img-responsive">
+                                        <img class="banner-logo center-block" src="{% static 'images/logo.png'%}" style="max-height: 100px">
+                                    </div>
                                     {% block message %}{% endblock %}
                                 </div>
                             </div>
